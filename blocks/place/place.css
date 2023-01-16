@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   column-gap: 40px;
-  gap: 48px 40px;
+  gap: 0 40px;
   margin: 0 0 80px;
 }
 
@@ -21,6 +21,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
+  max-width: 720px;
   grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
   gap: 48px 16px;
   margin: 0 auto calc(50px + (100vw - 320px) / (768 - 320) * (72 - 50));

@@ -5,7 +5,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
+  text-decoration: none;
   position: relative;
 }
 
@@ -26,5 +26,6 @@
 @media screen and (max-width: 425px) {
   .place__link {
     margin: 0 16px;
+    text-decoration-line: none;
   }
 }

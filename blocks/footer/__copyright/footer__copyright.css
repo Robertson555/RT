@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   color: white;
-  max-width: 186px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -12,10 +11,15 @@
   justify-self: flex-end;
 }
 
+.footer__copyright:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width:620px){
   .footer__copyright{
     justify-self: unset;
     margin: 16px 0 0;
     line-height: 1;
+    
   }
 }
